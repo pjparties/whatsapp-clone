@@ -1,15 +1,15 @@
+import React from 'react';
 import '../styles/App.css';
+import Sidebar from '../components/sidebar';
 
 function App() {
   return (
     <div className="app">      
-      <div class = "app_body"></div>
-      {/* sidebar */}
-      {/* chat */}
-      
-    </div>
-
-    
+      <div className = "app_body">
+        <Sidebar />
+        {/* CHAT */}
+      </div>      
+    </div>  
   );
 }
 
