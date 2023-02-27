@@ -1,15 +1,15 @@
 .app{
     display:grid;
     place-items:center;
-    background-color: #dadbd3;
+    background-image: url(../images/mainback.png);
     height: 100vh;
 }
 
 .app_body{
     display:flex;
     background-color: #ededed;
-    height:97vh;
-    width: 97vw;
+    height:95vh;
+    width: 95vw;
     box-shadow: -1px 4px 20px 0px rgba(0,0,0,0.75); 
 }
 

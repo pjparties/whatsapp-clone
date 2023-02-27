@@ -8,7 +8,7 @@ function sidebar() {
   return (
     <div className='sidebar'>
         <div className="sidebar_header">
-            <Avatar />
+            <Avatar>PJ</Avatar>
             <div className="sidebar_headerRight">
                 <IconButton> <DonutLarge/> </IconButton>
                 <IconButton> <Chat/> </IconButton>
